@@ -1,2 +1,2 @@
-conflicts
-hello world
+New conflicts
+

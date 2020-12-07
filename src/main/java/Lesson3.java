@@ -1,6 +1,6 @@
 public class Lesson3 {
     public static void main(String[] args) {
-        int a = 20;
+        int a = 15;
         int b = 5;
 
         int c = 8;
@@ -27,11 +27,22 @@ public class Lesson3 {
         boolean bool7 = (5 > 6) || (4 < 6);
         boolean bool8 = (5 < 6) && (4 > 6);
 
+        System.out.println(bool);
+        System.out.println(bool7);
+        System.out.println(bool8);
+//IF
+        if (a != b) || a >= b) {
+            System.out.println("Hello hello");
+        }
+
+//IF ELSE
+
         if (a == b) {
             System.out.println("Hello World if");
         } else {
             System.out.println("Hello World else");
         }
+//IF ELSE ELSE IF
 
         if (a == 5) {
             System.out.println("Hello World " + a);
@@ -41,13 +52,15 @@ public class Lesson3 {
             System.out.println("Hello World " + a);
         }
 
-        switch (a) {
+//SWITCH
+        int cars = 5;
+        switch (cars) {
             case 5:
-                System.out.println("first case");
+                System.out.println("Mercedes");
                 a++;
                 break;
             case 6:
-                System.out.println("second case");
+                System.out.println("BMW");
                 break;
             case 15:
                 System.out.println("third case");
